@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 
-export default function App() {
-  const [color, setColor] = useState("gray")
+ function App() {
+  const [color, setColor] = useState("gray");
 
   return (
     <div className="h-screen w-screen " style={{backgroundColor:color}}>
@@ -19,3 +19,4 @@ export default function App() {
   )
 }
 
+export default App;
